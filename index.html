@@ -20,6 +20,19 @@
             max-width: 1200px;
             margin: 0 auto;
         }
+ 
+        /* 移动端适配 */
+        @media (max-width: 768px) {
+            body {
+                padding: 0 15px;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            body {
+                padding: 0 10px;
+            }
+        }
         
         /* 封面设计 */
         .cover {
@@ -49,11 +62,6 @@
             z-index: 3;
         }
 
-
-        .cover-content {
-            position: relative;
-            z-index: 2; /* 确保内容在遮罩之上 */
-        }
         
         .cover h1 {
             font-size: 3.5rem;
@@ -669,7 +677,6 @@
     <div class="cover-content">
         <h1>第二届无畏极客纺织服装新产品体验活动</h1>
         <p>测试报告</p>
-        <p class="subtitle">极境之证------基于行业先锋的真实产品效能数据体验报告</p>
     </div>
 </div>   
     
