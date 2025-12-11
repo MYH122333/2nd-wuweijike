@@ -33,7 +33,7 @@
                 padding: 0 10px;
             }
         }
-        
+
         /* 封面设计 */
         .cover {
             width: 100%;
@@ -62,6 +62,10 @@
             z-index: 3;
         }
 
+        .cover-content {
+            position: relative;
+            z-index: 2; /* 确保内容在遮罩之上 */
+        }
         
         .cover h1 {
             font-size: 3.5rem;
